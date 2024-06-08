@@ -17,3 +17,7 @@ cp ./target/lambda-kafka-influxdb-1.0-SNAPSHOT.jar ../terraform/target
 # lambda producer
 
 pip install kafka-python -t .
+
+
+#SSH to Raspberry Pi
+ssh pi@192.168.86.21
